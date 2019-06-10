@@ -3,10 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB4744222AE5B110089576A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4744122AE5B110089576A /* NetworkService.swift */; };
+		1EB4744E22AE5BC20089576A /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744422AE5BC20089576A /* Moya.framework */; };
+		1EB4744F22AE5BC20089576A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744522AE5BC20089576A /* Alamofire.framework */; };
+		1EB4745022AE5BC20089576A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744622AE5BC20089576A /* RxCocoa.framework */; };
+		1EB4745122AE5BC20089576A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744722AE5BC20089576A /* AlamofireImage.framework */; };
+		1EB4745222AE5BC20089576A /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744822AE5BC20089576A /* ReSwift.framework */; };
+		1EB4745322AE5BC20089576A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744922AE5BC20089576A /* RxSwift.framework */; };
+		1EB4745422AE5BC20089576A /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744A22AE5BC20089576A /* SVProgressHUD.framework */; };
+		1EB4745522AE5BC20089576A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744B22AE5BC20089576A /* Result.framework */; };
+		1EB4745622AE5BC20089576A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744C22AE5BC20089576A /* SnapKit.framework */; };
+		1EB4745722AE5BC20089576A /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB4744D22AE5BC20089576A /* RxMoya.framework */; };
+		1EB4745C22AE5EA60089576A /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4745B22AE5EA60089576A /* Media.swift */; };
+		1EB4745E22AE61030089576A /* DiscoverMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4745D22AE61030089576A /* DiscoverMovieResponse.swift */; };
+		1EB4746022AE65F20089576A /* DiscoverTVResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4745F22AE65F20089576A /* DiscoverTVResponse.swift */; };
+		1EB4746522AE685B0089576A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4746422AE685B0089576A /* MainTabBarController.swift */; };
 		1EB499E722AE31C2004D94A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB499E622AE31C2004D94A5 /* AppDelegate.swift */; };
 		1EB499E922AE31C2004D94A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB499E822AE31C2004D94A5 /* ViewController.swift */; };
 		1EB499EC22AE31C2004D94A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB499EA22AE31C2004D94A5 /* Main.storyboard */; };
@@ -15,6 +30,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB4743E22AE56910089576A /* Carthage.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = Carthage.xcfilelist; sourceTree = "<group>"; };
+		1EB4744122AE5B110089576A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1EB4744422AE5BC20089576A /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		1EB4744522AE5BC20089576A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1EB4744622AE5BC20089576A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		1EB4744722AE5BC20089576A /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		1EB4744822AE5BC20089576A /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		1EB4744922AE5BC20089576A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		1EB4744A22AE5BC20089576A /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		1EB4744B22AE5BC20089576A /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		1EB4744C22AE5BC20089576A /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		1EB4744D22AE5BC20089576A /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		1EB4745B22AE5EA60089576A /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		1EB4745D22AE61030089576A /* DiscoverMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieResponse.swift; sourceTree = "<group>"; };
+		1EB4745F22AE65F20089576A /* DiscoverTVResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTVResponse.swift; sourceTree = "<group>"; };
+		1EB4746422AE685B0089576A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1EB499E322AE31C2004D94A5 /* ReSwiftMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSwiftMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB499E622AE31C2004D94A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EB499E822AE31C2004D94A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +60,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB4744E22AE5BC20089576A /* Moya.framework in Frameworks */,
+				1EB4744F22AE5BC20089576A /* Alamofire.framework in Frameworks */,
+				1EB4745022AE5BC20089576A /* RxCocoa.framework in Frameworks */,
+				1EB4745122AE5BC20089576A /* AlamofireImage.framework in Frameworks */,
+				1EB4745222AE5BC20089576A /* ReSwift.framework in Frameworks */,
+				1EB4745322AE5BC20089576A /* RxSwift.framework in Frameworks */,
+				1EB4745422AE5BC20089576A /* SVProgressHUD.framework in Frameworks */,
+				1EB4745522AE5BC20089576A /* Result.framework in Frameworks */,
+				1EB4745622AE5BC20089576A /* SnapKit.framework in Frameworks */,
+				1EB4745722AE5BC20089576A /* RxMoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB4744022AE5AE50089576A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4744122AE5B110089576A /* NetworkService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1EB4744322AE5BC20089576A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4744522AE5BC20089576A /* Alamofire.framework */,
+				1EB4744722AE5BC20089576A /* AlamofireImage.framework */,
+				1EB4744422AE5BC20089576A /* Moya.framework */,
+				1EB4744B22AE5BC20089576A /* Result.framework */,
+				1EB4744822AE5BC20089576A /* ReSwift.framework */,
+				1EB4744622AE5BC20089576A /* RxCocoa.framework */,
+				1EB4744D22AE5BC20089576A /* RxMoya.framework */,
+				1EB4744922AE5BC20089576A /* RxSwift.framework */,
+				1EB4744C22AE5BC20089576A /* SnapKit.framework */,
+				1EB4744A22AE5BC20089576A /* SVProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EB4745822AE5D6F0089576A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4745A22AE5E900089576A /* Codables */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EB4745A22AE5E900089576A /* Codables */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4745B22AE5EA60089576A /* Media.swift */,
+				1EB4745D22AE61030089576A /* DiscoverMovieResponse.swift */,
+				1EB4745F22AE65F20089576A /* DiscoverTVResponse.swift */,
+			);
+			path = Codables;
+			sourceTree = "<group>";
+		};
+		1EB4746122AE67350089576A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4746222AE67500089576A /* MovieList */,
+				1EB4746322AE682E0089576A /* Containers */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1EB4746222AE67500089576A /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		1EB4746322AE682E0089576A /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				1EB4746422AE685B0089576A /* MainTabBarController.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
 		1EB499DA22AE31C2004D94A5 = {
 			isa = PBXGroup;
 			children = (
 				1EB499E522AE31C2004D94A5 /* ReSwiftMovies */,
 				1EB499E422AE31C2004D94A5 /* Products */,
+				1EB4744322AE5BC20089576A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +163,16 @@
 		1EB499E522AE31C2004D94A5 /* ReSwiftMovies */ = {
 			isa = PBXGroup;
 			children = (
+				1EB4744022AE5AE50089576A /* API */,
+				1EB4745822AE5D6F0089576A /* Models */,
+				1EB4746122AE67350089576A /* Scenes */,
 				1EB499E622AE31C2004D94A5 /* AppDelegate.swift */,
 				1EB499E822AE31C2004D94A5 /* ViewController.swift */,
 				1EB499EA22AE31C2004D94A5 /* Main.storyboard */,
 				1EB499ED22AE31C3004D94A5 /* Assets.xcassets */,
 				1EB499EF22AE31C3004D94A5 /* LaunchScreen.storyboard */,
 				1EB499F222AE31C3004D94A5 /* Info.plist */,
+				1EB4743E22AE56910089576A /* Carthage.xcfilelist */,
 			);
 			path = ReSwiftMovies;
 			sourceTree = "<group>";
@@ -74,6 +187,7 @@
 				1EB499DF22AE31C2004D94A5 /* Sources */,
 				1EB499E022AE31C2004D94A5 /* Frameworks */,
 				1EB499E122AE31C2004D94A5 /* Resources */,
+				1EB4743F22AE5A7C0089576A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,13 +244,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EB4743F22AE5A7C0089576A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/ReSwiftMovies/Carthage.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EB499DF22AE31C2004D94A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1EB499E922AE31C2004D94A5 /* ViewController.swift in Sources */,
+				1EB4744222AE5B110089576A /* NetworkService.swift in Sources */,
+				1EB4745C22AE5EA60089576A /* Media.swift in Sources */,
+				1EB4746522AE685B0089576A /* MainTabBarController.swift in Sources */,
 				1EB499E722AE31C2004D94A5 /* AppDelegate.swift in Sources */,
+				1EB4745E22AE61030089576A /* DiscoverMovieResponse.swift in Sources */,
+				1EB4746022AE65F20089576A /* DiscoverTVResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +424,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6D6YGS26X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReSwiftMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +446,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6D6YGS26X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReSwiftMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

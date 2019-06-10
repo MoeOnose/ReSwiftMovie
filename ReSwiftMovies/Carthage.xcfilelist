@@ -1,0 +1,22 @@
+#  Carthage.xcfilelist
+#  ReSwiftMovies
+#
+#  Created by liddell049 on 2019/06/10.
+#  Copyright © 2019 liddell049. All rights reserved.
+
+# This file may be set as an input or output file list for a shell script build phase.
+# List file paths below; one per line. These paths will be considered inputs or outputs for the script phase.
+# Build settings will be expanded, e.g. $(SRCROOT)/fileName
+
+#.framework全部追加するのではないのか。。。
+
+$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework
+$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework
+$(SRCROOT)/Carthage/Build/iOS/Moya.framework
+$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework
+$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework
+$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework
+$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework
+$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework
+$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework
+$(SRCROOT)/Carthage/Build/iOS/Result.framework
